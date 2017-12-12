@@ -26,3 +26,9 @@ Current maintainers:
 This project has been sponsored by:
  * GOOGLE CODE-IN
    Well not really, but if it weren't for GCI then I wouldn't have learnt about the Ajax API :P
+   
+SCREENSHOTS
+-----------
+
+![DeepinScreenshot_20171213013711.png](https://imghost.io/images/2017/12/12/DeepinScreenshot_20171213013711.png)
+![DeepinScreenshot_20171213013717.png](https://imghost.io/images/2017/12/12/DeepinScreenshot_20171213013717.png)
