@@ -12,6 +12,8 @@ class AjaxAlert extends FormBase {
   public function getFormID() {
     return 'ajax_alert_example';
   }
+
+  //build the form
   public function buildForm(array $form, FormStateInterface $form_state) {
 
     $form['ajax_alert_example'] = [
@@ -19,7 +21,7 @@ class AjaxAlert extends FormBase {
       '#value' => 'Click me!',
       '#ajax' => [
         'callback' => '::alertCallback',
-        'event' => 'click',
+        'event' => 'click', //adding a fancy loader
           'progress' => [
              'type' => 'throbber',
              'message' => 'Starting AJAX engines...',
@@ -40,6 +42,7 @@ class AjaxAlert extends FormBase {
    * @see Drupal\Core\Ajax\AlertCommand; 
    * @see Drupal\Component\Datetime\Time;
    */
+
   public function alertCallback($form, $form_state) {
 
     $response = new AjaxResponse();
