@@ -1,0 +1,7 @@
+name: 'AJAX Alert Example'
+type: module
+description: 'A simple module demonstrating the AlertCommand method.'
+package: 'AJAX Example'
+core: 8.x
+dependencies:
+  - drupal:node

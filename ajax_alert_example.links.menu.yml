@@ -1,0 +1,4 @@
+ajax_alert_example.main:
+  title: 'AJAX Alert Example'
+  route_name: 'ajax_alert_example.main'
+  expanded: TRUE

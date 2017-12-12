@@ -1,0 +1,7 @@
+ajax_alert_example.main:
+  path: '/ajax-alert-example'
+  defaults:
+    _form: '\Drupal\ajax_alert_example\Form\AjaxAlert'
+    _title: 'AJAX Alert'
+  requirements:
+    _permission: 'access content'
